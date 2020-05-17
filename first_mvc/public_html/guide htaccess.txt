@@ -1,0 +1,7 @@
+AddDefaultCharset utf-8 - кодировка
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f - проверяем на файл
+RewriteCond %{REQUEST_FILENAME} !-d - проверяем на директорию
+%{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ index.php - если нет, то кидаем на индекс пхп
