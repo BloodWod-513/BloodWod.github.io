@@ -1,2 +1,2 @@
 # BloodWod.github.io
-Мой первый хостинг
+I tried to write my own small MVC framework, but this hosting is not suitable for deploying a site here, so it's just storage
